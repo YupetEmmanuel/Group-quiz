@@ -1,0 +1,80 @@
+body{
+    width: 50%; 
+    margin: auto;
+
+    background-image: linear-gradient(180deg, lightblue,rgb(30, 87, 87));
+    text-align: center; 
+}
+body:hover{
+    background-image: linear-gradient(90deg, lightblue,rgb(30, 87, 87));
+
+}
+
+
+.main {
+    margin: 10px;
+    width: 40vm;
+    height:90vh;
+    background-image: linear-gradient(45deg, rgb(226, 255, 249), rgb(30, 87, 87));
+    border-radius: 10px;
+    box-shadow: 0.1px 5px 50px 3px black;
+    
+
+}
+
+.box {
+
+    
+    margin: 40px;
+
+    padding-bottom: 300px;
+    margin-top: 40px;
+
+
+
+
+}
+
+button:hover {
+    background-color: antiquewhite;
+}
+button{
+    margin-left: 100px;
+    display: grid;
+    margin-bottom: 10px;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 13px;
+
+}
+
+.quiz {
+    width: 400px;
+
+}
+
+h1 {
+    padding-top: 30px;
+
+  
+}
+
+h2{
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
+   font-weight: 500;
+   width: fit-content;
+   height: fit-content;
+  
+    background-color: lightblue;
+}
+
+#next-btn {
+    margin-top: 50px;
+}
+
+#answer-buttons {
+    margin-top:40px;
+}
