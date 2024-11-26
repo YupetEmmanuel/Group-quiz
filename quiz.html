@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Basic Crypto Quiz</title>
+  <link rel="stylesheet" href="quiz.css" />
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Basic Web Quiz</h1>
+    <div id="question-area">
+      <p id="question"></p>
+      <div id="options"></div>
+      <p id="timer" class="timer">Time left: 10 seconds</p>
+    </div>
+    <div class="controls">
+      <button id="submit-btn" disabled>Submit</button>
+      <button id="next-btn" disabled>Next</button>
+    </div>
+    <div id="score-area" class="hidden">
+      <h2 id="score-message"></h2>
+      <p id="final-score"></p>
+      <button id="restart-btn">Restart Quiz</button>
+    </div>
+  </div>
+  <script src="quiz.js"></script>
+</body>
+</html>
