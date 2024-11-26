@@ -1,7 +1,7 @@
 Basic Web Quiz Application
 
 Project Description
-This is a basic web quiz application built using **HTML**, **CSS**, and **JavaScript**. The quiz presents multiple-choice questions and provides feedback on the user's performance.
+This is a basic web quiz application built using HTML, CSS, and JavaScript. The quiz presents multiple-choice questions and provides feedback on the user's performance.
 
  Features
 - Interactive multiple-choice questions.
