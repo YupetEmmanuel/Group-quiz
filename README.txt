@@ -16,7 +16,3 @@ This is a basic web quiz application built using **HTML**, **CSS**, and **JavaSc
 - CSS for styling.
 - JavaScript for functionality.
 
- Setup Instructions
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/quiz-app.git
