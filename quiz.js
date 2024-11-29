@@ -172,5 +172,5 @@ const quizData = [
   }
   
   // Start the quiz by loading the first question
-  loadQuestion();
+loadQuestion();
   
