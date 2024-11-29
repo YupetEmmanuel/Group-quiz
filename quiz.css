@@ -1,60 +1,71 @@
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(120deg, #f6d365, #fda085);
+
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    background-image: url(images/ai-generated-neon-frame-on-dark-background-on-the-purple-background-with-green-leaves-free-photo.jpg);
-  }
+
+    width: 50%; 
+    margin: auto;
+
+    background-image: linear-gradient(180deg, lightblue,rgb(30, 87, 87));
+    text-align: center; 
+}
+
+body:hover{
+  background-image: linear-gradient(90deg, lightblue,rgb(30, 87, 87));
+
+}
+
   
-  .quiz-container {
-    background: rgb(48, 54, 67);
-    padding: 20px;
-    border-radius: 50px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    width: 80%;
-    max-width: 500px;
-    text-align: center;
-    transition: opacity 0.5s ease-in-out;
-  }
-  
-  button {
-    background-color: #4caf50;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    margin: 10px 0;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #45a049;
-  }
-  
-  .hidden {
-    display: none;
-  }
-  
-  #options button {
-    display: block;
-    width: 100%;
-    margin: 5px 0;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  #options button:hover {
-    background-color: #080808;
-  }
-  
-  #timer {
-    font-size: 18px;
-    color: #07cee4;
-    margin-top: 10px;
-  }
-  
+.quiz-container {
+  background-image: linear-gradient(45deg, rgb(226, 255, 249), rgb(30, 87, 87));
+  box-shadow: 0.1px 5px 50px 3px black;
+  padding: 20px;
+  border-radius: 50px;
+
+  width: 80%;
+  max-width: 500px;
+  text-align: center;
+  transition: opacity 0.5s ease-in-out;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.hidden {
+  display: none;
+}
+
+#options button {
+  display: block;
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#options button:hover {
+  background-color: #080808;
+}
+
+#timer {
+  font-size: 18px;
+  color: #07cee4;
+  margin-top: 10px;
+}
